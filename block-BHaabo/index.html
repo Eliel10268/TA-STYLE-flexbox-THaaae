@@ -6,3 +6,76 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment II Blog Dashboard | Flexbox</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2aefd3abca.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header clearfix">
+        <div class="logo">Eliel</div>
+        <div class="user-info">
+          <span class="icon-bell">🔔</span>
+          <span class="username">Sarah Jone</span>
+          <span class="icon-user">👤</span>
+        </div>
+      </header>
+      <div class="content">
+        <aside class="sidebar">
+          <ul>
+            <li><span class="icon">📊</span> Dashboard</li>
+            <li><span class="icon">✏️</span> Articles</li>
+            <li><span class="icon">📈</span> Analytics</li>
+            <li><span class="icon">📥</span> Inbox</li>
+            <li><span class="icon">⚙️</span> Settings</li>
+            <li class="logout"><span class="icon">🚪</span> Log out</li>
+          </ul>
+        </aside>
+        <main class="main-content">
+          <img src="assets/media/01.png" alt="classroom Image" />
+          <h1>Why we are doing coding?</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio. Praesent libero. Sed cursus ante dapibus diam. Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Aliquam eligendi
+            voluptatum, cupiditate culpa facilis
+          </p>
+
+          <p>
+            rerum sapiente placeat porro dicta qui adipisci molestiae ipsa
+            libero animi nam at delectus, natus itaque sint aliquid obcaecati
+            temporibus, quos earum? Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Integer nec odio. Praesent libero.
+          </p>
+        </main>
+      </div>
+      <footer class="footer clearfix">
+        <div class="logo">Eliel</div>
+        <div class="nav">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
