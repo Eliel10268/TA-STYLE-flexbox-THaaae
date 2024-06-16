@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info .icon-bell,
+.user-info .username,
+.user-info .icon-user {
+  margin-left: 10px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  margin: 36px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  padding: 20px;
+  color: darkblue;
+  min-width: 200px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li .icon {
+  margin-right: 10px;
+}
+
+.sidebar .logout {
+  margin-top: 560px;
+}
+
+.logout {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+}
+.main-content p {
+  max-width: 50%;
+  line-height: 1.7;
+}
+.nav a {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 32px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: white;
+}
